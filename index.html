@@ -4,235 +4,162 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="PhysicsMind: Sim and Real Mechanics Benchmarking for Foundational VLMs and World Models">
+  <meta name="description" content="PhysicsMind is a unified benchmark evaluating physical reasoning and prediction in VLMs and World Models across Center of Mass, Lever Equilibrium, and Newton's First Law.">
+  <meta name="keywords" content="PhysicsMind, Video Generation, VQA, World Models, Physical Reasoning, Computer Vision">
+  <meta name="author" content="Chak-Wing Mak, Guanyu Zhu, Boyi Zhang, Hongji Li, Xiaowei Chi, Kevin Zhang, Yichen Wu, Yangfan He, Chun-Kai Fan, Wentao Lu, Kuangzhi Ge, Xinyu Fang, Hongyang He, Kuan Lu, Tianxiang Xu, Li Zhang, Yongxin Ni, Youhua Li, Shanghang Zhang">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
-  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="PhysicsMind Project">
+  <meta property="og:title" content="PhysicsMind: Sim and Real Mechanics Benchmarking for Foundational VLMs and World Models">
+  <meta property="og:description" content="A unified benchmark evaluating physical reasoning and prediction in VLMs and World Models across Center of Mass, Lever Equilibrium, and Newton's First Law.">
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/physicsmind">
+  <meta property="og:image" content="static/images/overview.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="PhysicsMind Overview">
+  <meta property="article:published_time" content="2025-06-01T00:00:00.000Z">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Computer Vision">
+  <meta property="article:tag" content="Generative AI">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:site" content="@YOUR_LAB_HANDLE">
+  <meta name="twitter:creator" content="@YOUR_HANDLE">
+  <meta name="twitter:title" content="PhysicsMind: Sim and Real Mechanics Benchmarking">
+  <meta name="twitter:description" content="Benchmarking physical reasoning and prediction in Foundational VLMs and World Models.">
+  <meta name="twitter:image" content="static/images/overview.jpg">
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
+  <meta name="citation_title" content="PhysicsMind: Sim and Real Mechanics Benchmarking for Physical Reasoning and Prediction in Foundational VLMs and World Models">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Under Review">
+  <meta name="citation_pdf_url" content="static/pdfs/paper.pdf">
+  <meta name="citation_author" content="Mak, Chak-Wing">
+  <meta name="citation_author" content="Zhu, Guanyu">
+  <meta name="citation_author" content="Zhang, Boyi">
+  <meta name="citation_author" content="Zhang, Shanghang">
+
   <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   
-  <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
   
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
+
+  <title>PhysicsMind: Sim and Real Mechanics Benchmarking | Project Page</title>
   
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
   
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+    }
+    
+    /* PhysicsMind Gradient Text Style */
+    .physicsmind-text {
+        display: inline-block;
+        font-weight: bold;
+        background: linear-gradient(45deg, #00c6ff, #0072ff, #a200ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 0 2px rgba(0, 0, 0, .4));
+        animation: dyva-glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes dyva-glow {
+        from { filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2)); }
+        to { filter: drop-shadow(0 0 3px rgba(0, 114, 255, 0.5)); }
+    }
+
+    /* Card Styling */
+    .box-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      margin-bottom: 2rem;
+    }
+
+    /* Authors */
+    .author-block { display: inline-block; margin-right: 10px; margin-bottom: 5px; white-space: nowrap; font-weight: 500;}
+    .affiliation-block { display: inline-block; margin-right: 15px; font-size: 0.9em; color: #555; }
+    .eql-cntrb { font-style: italic; font-size: 0.85em; color: #666; margin-top: 10px; display: block;}
+    
+    /* Buttons */
+    .publication-links .button {
+        border-radius: 50px;
+        font-weight: 600;
+        transition: transform 0.1s ease;
+    }
+    .publication-links .button:hover { transform: scale(1.05); }
+
+    /* Model Selection Buttons */
+    .model-selector-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+    .model-btn {
+        border-radius: 50px;
+        padding: 0.5rem 1.5rem;
+        font-weight: 600;
+        border: 2px solid #e5e7eb;
+        background: white;
+        color: #374151;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    .model-btn:hover { border-color: #2563eb; color: #2563eb; }
+    .model-btn.active {
+        background: #2563eb;
+        color: white;
+        border-color: #2563eb;
+        box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+    }
+
+    /* Table Styling */
+    .table-container { overflow-x: auto; }
+    .table th { background-color: #f3f4f6; vertical-align: middle; text-align: center; font-size: 0.85em; font-weight: 700; color: #374151; }
+    .table td { vertical-align: middle; text-align: center; font-size: 0.9em; border-color: #e5e7eb;}
+    .table .model-name { text-align: left; font-weight: 600; color: #111827; }
+    .section-title { margin-bottom: 1.5rem; font-weight: 700; color: #111827; }
+    
+    /* Images */
+    .framework-image {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        margin-bottom: 10px;
+        border: 1px solid #f0f0f0;
+    }
+    .caption-text {
+        font-size: 0.9rem;
+        color: #4b5563;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+  </style>
 </head>
+
 <body>
 
-
-  <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
-
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 
   <main id="main-content">
   <section class="hero">
@@ -240,72 +167,125 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            
+            <h1 class="title is-1 publication-title" style="margin-bottom: 1.5rem;">
+              <span class="physicsmind-text">PhysicsMind</span>: Sim and Real Mechanics Benchmarking for Physical Reasoning and Prediction
+            </h1>
+            
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block"><a href="#" target="_blank">Chak-Wing Mak</a><sup>*,1</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Guanyu Zhu</a><sup>*,2</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Boyi Zhang</a><sup>*,3</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Hongji Li</a><sup>4</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Xiaowei Chi</a><sup>5</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Kevin Zhang</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Yichen Wu</a><sup>6</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Yangfan He</a><sup>7</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Chun-Kai Fan</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Wentao Lu</a><sup>8</sup>,</span>
+              <br>
+              <span class="author-block"><a href="#" target="_blank">Kuangzhi Ge</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Xinyu Fang</a><sup>9</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Hongyang He</a><sup>10</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Kuan Lu</a><sup>11</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Tianxiang Xu</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Li Zhang</a><sup>12</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Yongxin Ni</a><sup>13</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Youhua Li</a><sup>14</sup>,</span>
+              <span class="author-block"><a href="#" target="_blank">Shanghang Zhang</a><sup>✉,1</sup></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-6 publication-authors" style="margin-top: 20px;">
+              <span class="affiliation-block"><sup>1</sup>Peking University</span>
+              <span class="affiliation-block"><sup>2</sup>South China Agricultural University</span>
+              <span class="affiliation-block"><sup>3</sup>University of the Chinese Academy of Sciences</span>
+              <span class="affiliation-block"><sup>4</sup>Mohamed bin Zayed University of Artificial Intelligence</span>
+              <span class="affiliation-block"><sup>5</sup>Hong Kong University of Science and Technolog</span>
+              <br>
+              <span class="affiliation-block"><sup>6</sup>National University of Singapore</span>
+              <span class="affiliation-block"><sup>7</sup>University of North Carolina at Chapel Hill</span>
+              <span class="affiliation-block"><sup>8</sup>University of Science and Technology of China</span>
+              <span class="affiliation-block"><sup>9</sup>Hefei University of Technology</span>
+              <br>
+              <span class="affiliation-block"><sup>10</sup>Manifold.AI</span>
+              <span class="affiliation-block"><sup>11</sup>Cornell University</span>
+              <span class="affiliation-block"><sup>12</sup>Hong Kong Polytechnic University</span>
+              <span class="affiliation-block"><sup>13</sup>Westlake University</span>
+              <span class="affiliation-block"><sup>14</sup>City University of Hong Kong</span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="eql-cntrb">
+              <sup>*</sup>Indicates Equal Contribution &nbsp;&nbsp; <sup>✉</sup>Corresponding Author
+            </div>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="static/pdfs/paper.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
                 </a>
               </span>
-            </div>
+
+              <span class="link-block">
+                <a href="https://github.com/YOUR_REPO" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+                <a href="#" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon"><i class="fas fa-database"></i></span>
+                <span>Dataset</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="box-card has-text-centered">
+        <img src="static/images/dataset.png" alt="PhysicsMind Dataset" style="width: 100%; border-radius: 8px; margin-bottom: 15px;"/>
+        <h2 class="subtitle has-text-centered is-size-6-mobile">
+          <span class="physicsmind-text" style="font-size: 1.1em;">PhysicsMind</span> covers three canonical mechanics scenarios: Center of Mass, Lever Equilibrium, and Newton's First Law. Each is realized with diverse real tabletop experiments and controlled 2D simulations.
+        </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="box-card">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 section-title">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Modern foundational Multimodal Large Language Models (MLLMs) and video world models have advanced significantly in mathematical, common-sense, and visual reasoning, but their grasp of the underlying physics remains underexplored. Existing benchmarks attempting to measure this matter rely on synthetic Visual Question Answer templates or focus on perceptual video quality that is tangential to measuring how well the video abides by physical laws.
+            </p>
+            <p>
+              To address this fragmentation, we introduce <span class="physicsmind-text" style="font-size: 1em;">PhysicsMind</span>, a unified benchmark with both real and simulation environments evaluating both physical reasoning and physically plausible generation of three canonical physical laws: <strong>center of mass, lever equilibrium, and Newton's first law</strong>.
+            </p>
+            <p>
+              <span class="physicsmind-text" style="font-size: 1em;">PhysicsMind</span> comprises two main tasks: 
+            </p>
+              <ul>
+                  <li><strong>VQA tasks:</strong> Testing whether models can reason and determine physical quantities and values from images or short videos.</li>
+                  <li><strong>Video Generation (VG) tasks:</strong> Evaluating if predicted motion trajectories obey the same center-of-mass, torque, and inertial constraints as the ground truth.</li>
+              </ul>
+              <p>
+              A broad range of recent models is evaluated on <span class="physicsmind-text" style="font-size: 1em;">PhysicsMind</span> and found to rely on appearance heuristics while often violating basic mechanics. These gaps indicate that current scaling and training are still insufficient for robust physical understanding.
+            </p>
           </div>
         </div>
       </div>
@@ -313,208 +293,310 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+    <h2 class="title is-3 has-text-centered section-title">Framework & Analysis</h2>
+    
+    <div class="box-card">
+      <div class="columns is-multiline is-centered">
+        <div class="column is-12 has-text-centered">
+          <img src="static/images/overview.png" alt="PhysicsMind Overview" class="framework-image"/>
+          <p class="caption-text">
+            <strong>Figure 1.</strong> The PhysicsMind framework combines foundational models with physics-guided dataset construction, expert-verified annotations, and diverse controlled scenarios.
+          </p>
+        </div>
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+        <div class="column is-12"><hr></div>
+
+        <div class="column is-10 has-text-centered">
+          <img src="static/images/dataset.png" alt="Canonical Mechanics Scenarios" class="framework-image"/>
+          <p class="caption-text">
+            <strong>Figure 2.</strong> Three canonical mechanics scenarios: Center of Mass, Lever Equilibrium, and Newton's First Law, tested in Real and Sim environments.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered section-title">Video Generation Analysis</h2>
+    <div class="box-card">
+        <p class="subtitle has-text-centered" style="margin-bottom: 1.5rem;">
+          Qualitative comparisons of Video Generation models against Ground Truth.
+        </p>
+        
+        <div class="model-selector-container">
+            <button class="model-btn active" onclick="changeVideo('gt')">Ground Truth</button>
+            <button class="model-btn" onclick="changeVideo('sora2')">Sora2</button>
+            <button class="model-btn" onclick="changeVideo('ltx')">LTX</button>
+            <button class="model-btn" onclick="changeVideo('veo3')">Veo</button>
+        </div>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+        <div class="columns is-centered">
+          <div class="column is-4">
+            <video id="video1" controls muted loop width="100%" preload="metadata" style="border-radius: 8px;">
+              <source src="static/videos/center_of_mass_gt.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="margin-top: 15px;">
+              <span class="tag is-primary is-light is-medium">Hanging Method</span>
+              <p style="margin-top: 10px; font-size: 0.9rem; color: #4b5563;">
+                [cite_start]Comparing temporal stability and physical realism. [cite: 2313-2315]
+              </p>
+            </div>
+          </div>
 
+          <div class="column is-4">
+            <video id="video2" controls muted loop width="100%" preload="metadata" style="border-radius: 8px;">
+              <source src="static/videos/inertia_gt.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="margin-top: 15px;">
+              <span class="tag is-info is-light is-medium">Rapid Paper Pull</span>
+              <p style="margin-top: 10px; font-size: 0.9rem; color: #4b5563;">
+                [cite_start]Evaluating temporal consistency and contact. [cite: 2322-2324]
+              </p>
+            </div>
+          </div>
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="column is-4">
+            <video id="video3" controls muted loop width="100%" preload="metadata" style="border-radius: 8px;">
+              <source src="static/videos/lever_equilibrium_gt.mp4" type="video/mp4">
+            </video>
+            <div class="has-text-centered" style="margin-top: 15px;">
+              <span class="tag is-warning is-light is-medium">Lever Equilibrium</span>
+              <p style="margin-top: 10px; font-size: 0.9rem; color: #4b5563;">
+                [cite_start]Checking if the final state matches torque balance. [cite: 1902-1903]
+              </p>
+            </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered section-title">Experimental Results</h2>
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
+    <div class="box-card">
+      <h3 class="title is-4">1. VQA Physics Evaluation</h3>
+      <div class="table-container">
+        <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th rowspan="2">Model</th>
+              <th colspan="3">Center of Mass (CoM)</th>
+              <th colspan="3">Lever Equilibrium (LE)</th>
+              <th colspan="3">Newton's First Law (NI)</th>
+            </tr>
+            <tr>
+              <th>Position</th>
+              <th>Rotation</th>
+              <th>Overall</th>
+              <th>Equilibrium</th>
+              <th>Bal. Adj.</th>
+              <th>Overall</th>
+              <th>Obj. Pos.</th>
+              <th>Stability</th>
+              <th>Overall</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="model-name">GPT-5 [30]</td>
+              <td>60.00</td><td>80.00</td><td><b>70.00</b></td>
+              <td>66.67</td><td>76.19</td><td><b>70.00</b></td>
+              <td>60.00</td><td>95.00</td><td>77.50</td>
+            </tr>
+            <tr>
+              <td class="model-name">o4-mini [29]</td>
+              <td>50.00</td><td>55.00</td><td>52.50</td>
+              <td>28.57</td><td>85.71</td><td>52.50</td>
+              <td>75.00</td><td>95.00</td><td><b>85.00</b></td>
+            </tr>
+            <tr>
+              <td class="model-name">GPT-4o [27]</td>
+              <td>40.00</td><td>35.00</td><td>37.50</td>
+              <td>42.86</td><td>54.76</td><td>47.50</td>
+              <td>45.00</td><td>85.00</td><td>65.00</td>
+            </tr>
+            <tr>
+              <td class="model-name">Claude 4.5 Sonnet [3]</td>
+              <td>45.00</td><td>20.00</td><td>32.50</td>
+              <td>61.90</td><td>61.90</td><td>59.52</td>
+              <td>40.00</td><td>90.00</td><td>65.00</td>
+            </tr>
+            <tr>
+              <td class="model-name">Gemini 2.5 Pro [9]</td>
+              <td>30.00</td><td>70.00</td><td>50.00</td>
+              <td>61.90</td><td>52.38</td><td>57.14</td>
+              <td>20.00</td><td>45.00</td><td>32.50</td>
+            </tr>
+            <tr>
+              <td class="model-name">Qwen2.5-VL-72B [36]</td>
+              <td>30.00</td><td>55.00</td><td>42.50</td>
+              <td>54.76</td><td>52.38</td><td>52.38</td>
+              <td>42.86</td><td>85.00</td><td>62.50</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+      <p class="content is-small has-text-centered has-text-grey">
+        Table 1. Selected VQA Physics Evaluation Results. Values represent accuracy in percentage (%).
+      </p>
+    </div>
+
+    <div class="box-card">
+      <h3 class="title is-4">2. Video Generation Physics Evaluation</h3>
+      <div class="table-container">
+        <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th rowspan="2">Model</th>
+              <th colspan="2">Center of Mass</th>
+              <th>Lever Eq.</th>
+              <th colspan="2">Newton's First Law</th>
+            </tr>
+            <tr>
+              <th>Mask IoU ↑</th>
+              <th>Center Diff ↓</th>
+              <th>Final Acc (%) ↑</th>
+              <th>Traj. RMSE ↓</th>
+              <th>Dir. Consistency ↑</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="model-name">Veo3.1 [13]</td>
+              <td>0.019</td><td>108.39</td><td>35.0</td>
+              <td>1.384</td><td>0.5419</td>
+            </tr>
+            <tr>
+              <td class="model-name">Sora-2 [31]</td>
+              <td><b>0.167</b></td><td>121.42</td><td>40.0</td>
+              <td>0.380</td><td>0.5494</td>
+            </tr>
+            <tr>
+              <td class="model-name">LTX-Video [14]</td>
+              <td>0.005</td><td>76.37</td><td>4.76</td>
+              <td>0.406</td><td>0.5594</td>
+            </tr>
+            <tr>
+              <td class="model-name">CogVideoX1.5 [42]</td>
+              <td>0.014</td><td>223.70</td><td>38.1</td>
+              <td>0.414</td><td>0.4884</td>
+            </tr>
+             <tr>
+              <td class="model-name">Pyramid Flow [17]</td>
+              <td>0.012</td><td>322.97</td><td><b>47.6</b></td>
+              <td>0.381</td><td><b>0.6437</b></td>
+            </tr>
+            <tr>
+              <td class="model-name">Cosmos-predict2 [24]</td>
+              <td>0.009</td><td>217.33</td><td>42.9</td>
+              <td><b>0.350</b></td><td>0.4884</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="content is-small has-text-centered has-text-grey">
+        Table 2. Video generation physics evaluation. Metrics include Segmentation Mask IoU (higher is better), Center Difference (lower is better), and Trajectory RMSE (lower is better).
+      </p>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <div class="box-card">
+        <div class="bibtex-header">
+          <h2 class="title is-4">BibTeX</h2>
+          <button class="copy-bibtex-btn button is-small is-light" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <span class="icon is-small"><i class="fas fa-copy"></i></span>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre style="background-color: #f5f5f5; border-radius: 5px; padding: 15px;"><code id="bibtex-code">@article{PhysicsMind2026,
+  title={PhysicsMind: Sim and Real Mechanics Benchmarking for Physical Reasoning and Prediction in Foundational VLMs and World Models},
+  author={Mak, Chak-Wing and Zhu, Guanyu and Zhang, Boyi and Li, Hongji and Chi, Xiaowei and Zhang, Kevin and Wu, Yichen and He, Yangfan and Fan, Chun-Kai and Lu, Wentao and Ge, Kuangzhi and Fang, Xinyu and He, Hongyang and Lu, Kuan and Xu, Tianxiang and Zhang, Li and Ni, Yongxin and Li, Youhua and Zhang, Shanghang},
+  journal={Under Review},
+  year={2026}
 }</code></pre>
+      </div>
     </div>
 </section>
-<!--End BibTex citation -->
 
-
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+<script>
+  // Copy BibTeX Function
+  function copyBibTeX() {
+    const bibtexCode = document.getElementById('bibtex-code').innerText;
+    navigator.clipboard.writeText(bibtexCode).then(() => {
+      const copyBtn = document.querySelector('.copy-bibtex-btn .copy-text');
+      const originalText = copyBtn.innerText;
+      copyBtn.innerText = 'Copied!';
+      setTimeout(() => {
+        copyBtn.innerText = originalText;
+      }, 2000);
+    });
+  }
 
-    <!-- End of Statcounter Code -->
+  // Video Source Switcher
+  function changeVideo(model) {
+    const video1 = document.getElementById('video1');
+    const video2 = document.getElementById('video2');
+    const video3 = document.getElementById('video3');
+    
+    // Update Video Sources
+    if(model === 'gt') {
+        video1.src = "static/videos/center_of_mass_gt.mp4";
+        video2.src = "static/videos/inertia_gt.mp4";
+        video3.src = "static/videos/lever_equilibrium_gt.mp4";
+    } else if (model === 'sora2') {
+        video1.src = "static/videos/center_of_mass_sora2.mp4";
+        video2.src = "static/videos/inertia_sora2.mp4";
+        video3.src = "static/videos/lever_equilibrium_sora2.mp4";
+    } else if (model === 'ltx') {
+        video1.src = "static/videos/center_of_mass_ltx.mp4";
+        video2.src = "static/videos/inertia_ltx.mp4";
+        video3.src = "static/videos/lever_equilibrium_ltx.mp4";
+    } else if (model === 'veo3s') {
+        video1.src = "static/videos/center_of_mass_veo3.mp4";
+        video2.src = "static/videos/inertia_veo3.mp4";
+        video3.src = "static/videos/lever_equilibrium_veo3.mp4";
+    }
 
-  </body>
-  </html>
+    // Load and play new videos
+    video1.load(); video1.play();
+    video2.load(); video2.play();
+    video3.load(); video3.play();
+
+    // Toggle Active Button State
+    const buttons = document.querySelectorAll('.model-btn');
+    buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if(btn.textContent.toLowerCase().includes(model) || 
+          (model === 'gt' && btn.textContent.includes('Ground Truth'))) {
+            btn.classList.add('active');
+        }
+    });
+  }
+</script>
+
+</body>
+</html>
